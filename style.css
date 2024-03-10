@@ -55,9 +55,10 @@
 .nav2 span {
     position: relative;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     color: rgb(0,0,66);
 }
+
 
 .nav2 span:hover {
     border-bottom:4px solid rgb(0,0,66) ;
@@ -66,6 +67,7 @@
 .imgContainer2 {
     display: flex;
     justify-content: right;
+    gap: 5px;
 }
 .imgContainer2 img {
     height: 39px;
@@ -157,6 +159,10 @@
     font-size: 16px;
     border: none;
     margin-top: 22px;
+}
+
+.cart button:hover {
+    background-color: #56c3bf;
 }
 .banner h2 {
     width: 94%;
