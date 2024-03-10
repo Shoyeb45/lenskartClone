@@ -7,7 +7,7 @@
 .header {
     position: sticky;
     top: 0;
-    background-color: #fff;
+    background-color: white;
 }
 .nav1 {
     display: flex;
@@ -48,7 +48,7 @@
     position: relative;
     margin-top: 20px;
     background-color: rgb(251,249,247);
-    height: 55px;
+    height: 60px;
 }
 
 .nav2 span {
@@ -56,7 +56,10 @@
     text-align: center;
     font-weight: 500;
     color: rgb(0,0,66);
-    
+}
+
+.nav2 span:hover {
+    border-bottom:4px solid rgb(0,0,66) ;
 }
 
 .imgContainer2 {
@@ -64,8 +67,6 @@
     justify-content: right;
 }
 .imgContainer2 img {
-    /* width: 8%;
-    height: auto; */
     height: 39px;
     width: 91px;
     border-radius: 5px;
@@ -81,8 +82,7 @@
 .glasses img {
     width: 15%;
     height: auto;
-    /* height: px;
-    width: 235px; */
+    border-radius: 20px;
 }
 
 .main img{
@@ -97,7 +97,6 @@
 .wearTrend {
     position: relative;
     margin-left: 13vmin;
-    /* margin-top: 5vmin;  */
 }
 .wearTrend h4 {
     font-family: "Rajdhani", sans-serif;
@@ -159,8 +158,6 @@
     margin-top: 22px;
 }
 .banner h2 {
-    /* display: flex;
-    flex-direction: row; */
     width: 94%;
     color: black;
     letter-spacing: 0.5px;
@@ -169,37 +166,9 @@
     text-align: center;
     padding: 22px;
 }
-/* h2:before, h2:after {
-    content: '';
-    flex: 1 1;
-    border-bottom: 1px solid #cfcdcd;
-    margin: auto 15px;
-} */
-/* 
-.perFit h2 {
-    text-align: center;
-    padding: 22px;
-}
-
-.perfectFit {
-    display: flex;
-    position: relative;
-    margin-left: 120px;
-    margin-right: 120px;
-}
-
-.perfectFit img {
-    height: ;
-}
-
-.left {
-    display: flex;
-    flex-direction: column;
-} */
 
 .footer {
     display: flex;
-    /* justify-content: left; */
     justify-content: left;
     gap: 10rem;
     background-color: #000042;
@@ -225,6 +194,50 @@
     color: white;
 }
 
+.lastFooter {
+    background-color: #fff;
+    height: 2px;
+}
 
+.footer2 h3 {
+    color: white;
+}
+.footer2 {
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: #000042;
+}
 
+.top img {
+    height: 46%;
+    width: 46%;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.buyBanner {
+    position: relative;
+    
+}
+.buyBanner h2 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+} 
+.bottom { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
 
+.bottom img{ 
+    height: 46%;
+    width: 46%;
+}
